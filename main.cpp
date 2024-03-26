@@ -42,13 +42,17 @@ public:
         }
     }
     void dijkstra(char start) {
-        dijkstra(getOrAdd(start));
+        if (nodes.find(start) == nodes.end()) {
+            std::cerr << "Node " << start << " does not exist\n";
+            return;
+        }
+        dijkstra(nodes[start]);
     }
 private:
     std::map<char, Node *> nodes;
     void dijkstra(Node *start) {
         if (nodes[start->id]->neighbors.empty()) {
-            std::cerr << "Node " << start->id << " does not exist\n";
+            std::cerr << "Node " << start->id << " has no neighbors\n";
             return;
         }
 

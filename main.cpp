@@ -33,7 +33,7 @@ public:
     }
     void print() {
         for (auto &pair: nodes) {
-            std::cout << "Node " << pair.second->id << " is "
+            std::cout << "Node " << pair.first << " is "
                       << (pair.second->isChargingStation ? "a charging station" : "not a charging station")
                       << '\n';
             for (auto &pair2: pair.second->neighbors) {
@@ -48,7 +48,7 @@ private:
     std::map<char, Node *> nodes;
     void dijkstra(Node *start) {
         if (nodes[start->id]->neighbors.empty()) {
-            std::cerr << "Node " << start->id << " has no neighbors\n";
+            std::cerr << "Node " << start->id << " does not exist\n";
             return;
         }
 
@@ -145,7 +145,7 @@ public:
                 break;
             } else if (input == "print") {
                 graph.print();
-            } else if (input.size() == 1 && toupper(input[0]) >= 'A' && toupper(input[0]) <= 'W') {
+            } else if (input.size() == 1) {
                 graph.dijkstra(toupper(input[0]));
             } else {
                 std::cerr << "Invalid input\n";

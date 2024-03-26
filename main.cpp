@@ -114,7 +114,7 @@ public:
 
         if (!file.is_open()) {
             std::cerr << "File not found\n";
-            return;
+            exit(1);
         }
 
         while (std::getline(file, line)) {

@@ -1,7 +1,13 @@
 # ninja log v5
-0	248	7331180622039331	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
-249	381	7331180623339778	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5
-2	280	7331182589636729	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
-280	403	7331182590828435	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5
-1	267	7331182897860833	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
-268	377	7331182898927274	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5
+1	1140	7331272777396344	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
+1140	1325	7331272779205602	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5
+1	504	7331274602092259	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
+504	618	7331274603207843	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5
+2	519	7331276176952693	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
+519	632	7331276178055591	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5
+1	510	7331276830759276	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
+510	623	7331276831885976	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5
+1	505	7331277579300046	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
+505	618	7331277580394274	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5
+2	499	7331277643204438	CMakeFiles/EV_Charging_Station_Route_Optimization.dir/main.cpp.obj	eb342e547ef2ca0f
+500	612	7331277644305036	EV_Charging_Station_Route_Optimization.exe	d3ed87bc14fb10b5

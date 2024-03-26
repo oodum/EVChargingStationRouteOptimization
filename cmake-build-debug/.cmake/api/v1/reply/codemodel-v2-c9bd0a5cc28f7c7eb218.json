@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EV_Charging_Station_Route_Optimization",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EV_Charging_Station_Route_Optimization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EV_Charging_Station_Route_Optimization-Debug-c0be97d89568ca04d622.json",
+					"name" : "EV_Charging_Station_Route_Optimization",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "Z:/UOIT/Year 2/Algorithms and Data Structures/EV Charging Station Route Optimization/cmake-build-debug",
+		"source" : "Z:/UOIT/Year 2/Algorithms and Data Structures/EV Charging Station Route Optimization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

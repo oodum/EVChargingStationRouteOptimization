@@ -118,6 +118,7 @@ public:
 
         if (!file.is_open()) {
             std::cerr << "File not found\n";
+            std::ofstream newFile("PUT data.csv HERE.txt");
             exit(1);
         }
 

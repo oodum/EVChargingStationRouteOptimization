@@ -12,4 +12,7 @@ Otherwise, create a project in your preferred C++ compiler, run `main.cpp` in th
 After that, you're all set!
 
 ## Presentation
-[Youtube Video](https://youtu.be/jqa3FOg14wM)
+[YouTube Video](https://youtu.be/jqa3FOg14wM)
+
+## Report
+Report .pdf is located at the root of this repository, named `EV Charging Station Route Optimization Application.pdf`.
